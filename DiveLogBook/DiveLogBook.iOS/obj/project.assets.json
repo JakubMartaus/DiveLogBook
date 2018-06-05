@@ -1046,24 +1046,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jakub Martaus\\.nuget\\packages\\": {},
+    "C:\\Users\\martaja15\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jakub Martaus\\source\\repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\DiveLogBook.iOS.csproj",
+      "projectUniqueName": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\DiveLogBook.iOS.csproj",
       "projectName": "DiveLogBook.iOS",
-      "projectPath": "C:\\Users\\Jakub Martaus\\source\\repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\DiveLogBook.iOS.csproj",
-      "packagesPath": "C:\\Users\\Jakub Martaus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jakub Martaus\\source\\repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\obj\\",
+      "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\DiveLogBook.iOS.csproj",
+      "packagesPath": "C:\\Users\\martaja15\\.nuget\\packages\\",
+      "outputPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jakub Martaus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\martaja15\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -1077,8 +1077,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Jakub Martaus\\source\\repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj": {
-              "projectPath": "C:\\Users\\Jakub Martaus\\source\\repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj"
+            "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj": {
+              "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj"
             }
           }
         }

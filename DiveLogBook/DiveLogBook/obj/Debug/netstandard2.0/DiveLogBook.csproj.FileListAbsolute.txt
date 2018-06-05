@@ -14,3 +14,19 @@ C:\Users\Jakub Martaus\source\repos\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debu
 C:\Users\Jakub Martaus\source\repos\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.dll
 C:\Users\Jakub Martaus\source\repos\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.pdb
 C:\Users\Jakub Martaus\source\repos\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.csprojResolveAssemblyReference.cache
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\bin\Debug\netstandard2.0\DiveLogBook.deps.json
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\bin\Debug\netstandard2.0\DiveLogBook.dll
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\bin\Debug\netstandard2.0\DiveLogBook.pdb
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.csproj.CoreCompileInputs.cache
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.AddItemPage.xaml.g.cs
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.App.xaml.g.cs
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.MainPage.xaml.g.cs
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.MasterDetailPages.xaml.g.cs
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.MasterDetailPagesDetail.xaml.g.cs
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.MasterDetailPagesMaster.xaml.g.cs
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.Pages.LogPage.xaml.g.cs
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.AssemblyInfoInputs.cache
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.AssemblyInfo.cs
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.dll
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.pdb
+D:\martaja15\DiveLogBook\DiveLogBook\DiveLogBook\obj\Debug\netstandard2.0\DiveLogBook.csprojResolveAssemblyReference.cache

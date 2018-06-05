@@ -8,41 +8,42 @@ namespace DiveLogBook
 {
     public class TodoItemDatabase
     {
-        private SQLiteAsyncConnection database;
+        private SQLiteConnection database;
        
   
 
         public TodoItemDatabase(string dbPath)
         {
-            database = new SQLiteAsyncConnection(dbPath);
-            database.CreateTableAsync<TodoItem>().Wait();
+            database = new SQLiteConnection(dbPath);
+            database.CreateTable<TodoItem>();
         }
-        public Task<List<TodoItem>> GetItemsAsync()
+        public List<TodoItem> GetItemsAsync()
         {
-            return database.Table<TodoItem>().ToListAsync();
+            return null;
+            // return database.Table<TodoItem>();
         }
-        public Task<List<TodoItem>> GetItemsNotDoneAsync()
+        public  List<TodoItem> GetItemsNotDoneAsync()
         {
-            return database.QueryAsync<TodoItem>("SELECT * FROM [TodoItem] WHERE [Done] = 0");
+            return  database.Query<TodoItem>("SELECT * FROM [TodoItem]");
         }
-        public Task<TodoItem> GetItemAsync(int id)
+        public TodoItem GetItemAsync(int id)
         {
-            return database.Table<TodoItem>().Where(i => i.ID == id).FirstOrDefaultAsync();
+            return database.Table<TodoItem>().Where(i => i.ID == id).FirstOrDefault();
         }
-        public Task<int> SaveItemAsync(TodoItem item)
+        public int SaveItemAsync(TodoItem item)
         {
             if (item.ID != 0)
             {
-                return database.UpdateAsync(item);
+                return database.Update(item);
             }
             else
             {
-                return database.InsertAsync(item);
+                return database.Insert(item);
             }
         }
-        public Task<int> DeleteItemAsync(TodoItem item)
+        public int DeleteItemAsync(TodoItem item)
         {
-            return database.DeleteAsync(item);
+            return database.Delete(item);
         }
     }
 }

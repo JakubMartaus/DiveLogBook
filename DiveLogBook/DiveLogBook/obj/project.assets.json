@@ -507,25 +507,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jakub Martaus\\.nuget\\packages\\": {},
+    "C:\\Users\\martaja15\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jakub Martaus\\source\\repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj",
+      "projectUniqueName": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj",
       "projectName": "DiveLogBook",
-      "projectPath": "C:\\Users\\Jakub Martaus\\source\\repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj",
-      "packagesPath": "C:\\Users\\Jakub Martaus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jakub Martaus\\source\\repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\obj\\",
+      "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj",
+      "packagesPath": "C:\\Users\\martaja15\\.nuget\\packages\\",
+      "outputPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jakub Martaus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\martaja15\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
