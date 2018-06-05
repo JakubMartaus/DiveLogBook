@@ -1,0 +1,1 @@
+C:\Users\Jakub Martaus\source\repos\DiveLogBook\DiveLogBook\DiveLogBook.UWP\DiveLogBook.UWP.csproj;x86

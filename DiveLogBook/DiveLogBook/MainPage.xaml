@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DiveLogBook"
+             x:Class="DiveLogBook.MainPage">
+
+    <StackLayout>
+        <Grid RowSpacing="0" BackgroundColor="#4285f4" HorizontalOptions="FillAndExpand" HeightRequest="50">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Text="Dive Logbook"
+                       FontSize="20"
+                       TextColor="White"
+                       Grid.Column="0"
+                       Grid.Row="0"
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Start"
+                       Margin="10,10,0,0"/>
+            <Button x:Name="test" HeightRequest="20" BackgroundColor="Red" WidthRequest="80" Text="Click" HorizontalOptions="CenterAndExpand" Clicked="Test_OnClicked"></Button>
+        </Grid>
+
+
+       
+    </StackLayout>
+
+</ContentPage>

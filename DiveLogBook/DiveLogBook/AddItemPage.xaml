@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiveLogBook.AddItemPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid HorizontalOptions="Center" VerticalOptions="Start">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="280"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    
+                </Grid.RowDefinitions>
+                <Image x:Name="CountryIcon"  Grid.Column="0" Grid.Row="0" Source="" WidthRequest="30" HeightRequest="30"/>
+                <Image x:Name="LocationIcon"  Grid.Column="0" Grid.Row="1" Source="" WidthRequest="30" HeightRequest="30"/>
+                <Image x:Name="DateIcon"  Grid.Column="0" Grid.Row="2" Source="" WidthRequest="30" HeightRequest="30"/>
+                <Image x:Name="TimeIcon"  Grid.Column="0"  Grid.Row="3" Source="" WidthRequest="30" HeightRequest="30"/>
+                <Image x:Name="BuddyIcon"  Grid.Column="0"  Grid.Row="4" Source="" WidthRequest="30" HeightRequest="30"/>
+                <Image x:Name="WeatherIcon" Grid.Column="0" Grid.Row="5" Source="" WidthRequest="30" HeightRequest="30"></Image>
+                <Image x:Name="SeaIcon" Grid.Column="0" Grid.Row="6" Source="" WidthRequest="30" HeightRequest="30"></Image>
+                <Image x:Name="BoatIcon" Grid.Column="0" Grid.Row="7" Source="" WidthRequest="30" HeightRequest="30" ></Image>
+                <Entry x:Name="CountryEntry" Grid.Column="1" Grid.Row="0" Placeholder="Country" HorizontalOptions="FillAndExpand"></Entry>
+                <Entry x:Name="LocationEntry" Grid.Column="1" Grid.Row="1" Placeholder="Location" HorizontalOptions="FillAndExpand"></Entry>
+                <DatePicker   x:Name="DatePick" Grid.Column="1" Grid.Row="2" HorizontalOptions="FillAndExpand"></DatePicker>
+                <TimePicker x:Name="TimePick" Grid.Column="1" Grid.Row="3" HorizontalOptions="FillAndExpand"></TimePicker>
+                <Entry   x:Name="BuddyEntry" Grid.Column="1" Grid.Row="4" Placeholder="Buddy" HorizontalOptions="FillAndExpand"></Entry>
+                <Picker x:Name="WeatherPick" Title="Weather"   Grid.Column="1" Grid.Row="5" HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+
+                        <x:String>Sun</x:String>
+                        <x:String>Cloudy</x:String>
+                        <x:String>Rain</x:String>
+                        <x:String>Snow</x:String>
+
+
+                    </Picker.Items>
+                </Picker>
+                <Picker x:Name="WavesPick"  Title="Sea Waves" Grid.Column="1" Grid.Row="6" HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+
+                        <x:String>None</x:String>
+                        <x:String>Small waves</x:String>
+                        <x:String>Medium waves</x:String>
+                        <x:String>Big waves</x:String>
+
+
+                    </Picker.Items>
+                </Picker>
+                <Picker x:Name="BoatPick" SelectedItem="" Title="Boat" Grid.Column="1" Grid.Row="7" HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+
+                        <x:String>From boat</x:String>
+                        <x:String>From shore</x:String>
+                        
+
+
+                    </Picker.Items>
+                </Picker>
+                
+            </Grid>
+            <Button x:Name="SaveButton" Clicked="SaveButton_OnClicked" Text="SAVE" HorizontalOptions="FillAndExpand" BackgroundColor="#4285f4"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
