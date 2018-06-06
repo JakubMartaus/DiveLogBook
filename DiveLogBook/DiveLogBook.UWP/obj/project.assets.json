@@ -7322,11 +7322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.UWP\\DiveLogBook.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.UWP\\DiveLogBook.UWP.csproj",
       "projectName": "DiveLogBook.UWP",
-      "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.UWP\\DiveLogBook.UWP.csproj",
+      "projectPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.UWP\\DiveLogBook.UWP.csproj",
       "packagesPath": "C:\\Users\\martaja15\\.nuget\\packages\\",
-      "outputPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.UWP\\obj\\",
+      "outputPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7347,8 +7347,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj": {
-              "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj"
+            "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj": {
+              "projectPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj"
             }
           }
         }

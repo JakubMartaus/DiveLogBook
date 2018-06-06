@@ -31,6 +31,13 @@ namespace DiveLogBook
             var itemsFromDb = Database.GetItemsNotDoneAsync();
             // test.Text = itemsFromDb.ToString();
             PeopleListViewFormatted.ItemsSource = itemsFromDb;
+
+       
+        }
+        private void SelectedItemDetail(object sender, ItemTappedEventArgs e)
+        {
+            TodoItem todoItem = (TodoItem) e.Item;
+            Navigation.PushAsync(new DiveDetail(todoItem));
         }
     }
 }

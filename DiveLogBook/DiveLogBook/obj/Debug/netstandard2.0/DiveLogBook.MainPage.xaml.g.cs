@@ -11,7 +11,8 @@
 namespace DiveLogBook {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\MainPage.xaml" +
+        "")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

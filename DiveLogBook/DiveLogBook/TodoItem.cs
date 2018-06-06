@@ -19,6 +19,7 @@ namespace DiveLogBook
         public string Boat { get; set; }
     public TodoItem()
         {
+
         }
         public override string ToString()
         {

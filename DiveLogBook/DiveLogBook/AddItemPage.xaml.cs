@@ -55,7 +55,8 @@ namespace DiveLogBook
 	        item.Boat = BoatPick.SelectedItem.ToString();
 
 	        Database.SaveItemAsync(item);
-	    
+
+            MasterDetailPages.CustomNavigationTo ();
         }
 	}
 }

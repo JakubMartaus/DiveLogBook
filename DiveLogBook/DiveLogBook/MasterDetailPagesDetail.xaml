@@ -4,16 +4,11 @@
              x:Class="DiveLogBook.MasterDetailPagesDetail"
              Title="Detail">
   <StackLayout Padding="10">
-        <ListView x:Name="PeopleListViewFormatted" Grid.Row="1">
+        <ListView x:Name="PeopleListViewFormatted" ItemTapped="SelectedItemDetail" Grid.Row="1">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid HeightRequest="100">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="5*"/>
-                            </Grid.ColumnDefinitions>
-                            
+                        
                             <Grid Grid.Column="1">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*" />
@@ -21,14 +16,14 @@
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="5*"/>
                                 </Grid.ColumnDefinitions>
                                 <Label Text="{Binding Country}" FontAttributes="Bold" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalTextAlignment="Start"/>
                                 <Label Text="{Binding Location}" Grid.Row="1"  Grid.Column="1" FontSize="11" VerticalTextAlignment="Start"  />
-                            </Grid>
-                            <Label Text="{Binding ID}" TextColor="Black" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                                <Label Text="{Binding ID}" FontSize="Large" TextColor="Black" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
 
                         </Grid>
+
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

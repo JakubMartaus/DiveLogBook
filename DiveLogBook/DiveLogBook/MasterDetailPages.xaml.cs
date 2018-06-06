@@ -12,9 +12,11 @@ namespace DiveLogBook
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MasterDetailPages : MasterDetailPage
     {
+        public static MasterDetailPages Instance;
         public MasterDetailPages()
         {
             InitializeComponent();
+            Instance = this;
             MasterPage.ListView.ItemSelected += ListView_ItemSelected;
         }
 
@@ -31,6 +33,10 @@ namespace DiveLogBook
             IsPresented = false;
 
             MasterPage.ListView.SelectedItem = null;
+        }
+        public static void CustomNavigationTo()
+        {
+            Instance.Detail = new NavigationPage(new MasterDetailPagesDetail());
         }
     }
 }

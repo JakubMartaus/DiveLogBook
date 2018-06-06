@@ -878,11 +878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.Android\\DiveLogBook.Android.csproj",
+      "projectUniqueName": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.Android\\DiveLogBook.Android.csproj",
       "projectName": "DiveLogBook.Android",
-      "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.Android\\DiveLogBook.Android.csproj",
+      "projectPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.Android\\DiveLogBook.Android.csproj",
       "packagesPath": "C:\\Users\\martaja15\\.nuget\\packages\\",
-      "outputPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.Android\\obj\\",
+      "outputPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -903,8 +903,8 @@
       "frameworks": {
         "monoandroid80": {
           "projectReferences": {
-            "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj": {
-              "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj"
+            "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj": {
+              "projectPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj"
             }
           }
         }

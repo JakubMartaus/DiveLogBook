@@ -1052,11 +1052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\DiveLogBook.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\DiveLogBook.iOS.csproj",
       "projectName": "DiveLogBook.iOS",
-      "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\DiveLogBook.iOS.csproj",
+      "projectPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\DiveLogBook.iOS.csproj",
       "packagesPath": "C:\\Users\\martaja15\\.nuget\\packages\\",
-      "outputPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\obj\\",
+      "outputPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1077,8 +1077,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj": {
-              "projectPath": "D:\\martaja15\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj"
+            "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj": {
+              "projectPath": "C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\DiveLogBook.csproj"
             }
           }
         }
