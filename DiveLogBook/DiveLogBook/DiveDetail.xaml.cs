@@ -23,9 +23,20 @@ namespace DiveLogBook
             WeatherIcon.Source = ImageSource.FromFile("DarkCloud.png");
             SeaIcon.Source = ImageSource.FromFile("seaWaves.png");
             BoatIcon.Source = ImageSource.FromFile("boat.png");
+		    PressIcon.Source = ImageSource.FromFile("gauge.png");
+		    DepthIcon.Source = ImageSource.FromFile("Depth.png");
 
-            
             CountryLabel.Text = todoItem.Country;
-        }
+		    LocationLabel.Text = todoItem.Location;
+		    DateLabel.Text = todoItem.Date;
+		    TimeLabel.Text = todoItem.Time;
+		    BuddyLabel.Text = todoItem.Buddy;
+		    WeatherLabel.Text = todoItem.Weather;
+		    WavesLabel.Text = todoItem.Waves;
+		    BoatLabel.Text = todoItem.Boat;
+		    DepthLabel.Text = todoItem.Depth;
+		    PressLabel.Text = todoItem.Press;
+
+		}
 	}
 }

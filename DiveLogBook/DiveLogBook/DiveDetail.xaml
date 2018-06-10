@@ -6,32 +6,96 @@
         <StackLayout>
             <Grid HorizontalOptions="Center" VerticalOptions="Start">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="280"/>
+                    <ColumnDefinition Width="310" />
+                
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="40" />
-                    <RowDefinition Height="40" />
-                    <RowDefinition Height="40" />
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="160" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="160" />
+                    <RowDefinition Height="20" />
 
                 </Grid.RowDefinitions>
-                <Image x:Name="CountryIcon"  Grid.Column="0" Grid.Row="0" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
-                <Image x:Name="LocationIcon"  Grid.Column="0" Grid.Row="1" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" />
-                <Image x:Name="DateIcon"  Grid.Column="0" Grid.Row="2" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
-                <Image x:Name="TimeIcon"  Grid.Column="0"  Grid.Row="3" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
-                <Image x:Name="BuddyIcon"  Grid.Column="0"  Grid.Row="4" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
-                <Image x:Name="WeatherIcon" Grid.Column="0" Grid.Row="5" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"></Image>
-                <Image x:Name="SeaIcon" Grid.Column="0" Grid.Row="6" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"></Image>
-                <Image x:Name="BoatIcon" Grid.Column="0" Grid.Row="7" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" ></Image>
-                <Label x:Name="CountryLabel" Grid.Column="1" Grid.Row="0" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
-           
-            </Grid>
+                <Frame Grid.Column="0"  Grid.Row="1"   HorizontalOptions="FillAndExpand">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="260"/>
+                     
+                              
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40"/>
+                        
+         
+                   
+                        </Grid.RowDefinitions>
+                        <Image x:Name="CountryIcon"  Grid.Column="0" Grid.Row="0" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
+                        <Image x:Name="LocationIcon"  Grid.Column="0" Grid.Row="1" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" />
+                        <Image x:Name="DateIcon"  Grid.Column="0" Grid.Row="2" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
+                        <Image x:Name="BuddyIcon"  Grid.Column="0"  Grid.Row="3" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
+                        <Label x:Name="CountryLabel" Grid.Column="1" Grid.Row="0" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="LocationLabel" Grid.Column="1" Grid.Row="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="DateLabel" Grid.Column="1" Grid.Row="2" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="BuddyLabel" Grid.Column="1" Grid.Row="3" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                    </Grid>  
+                    
+                   
+                </Frame>
+                <Frame Grid.Column="0"  Grid.Row="3" HorizontalOptions="FillAndExpand" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="260"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+                        <Image x:Name="WeatherIcon" Grid.Column="0" Grid.Row="0" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"></Image>
+                        <Image x:Name="SeaIcon" Grid.Column="0" Grid.Row="1" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"></Image>
+                        <Image x:Name="BoatIcon" Grid.Column="0" Grid.Row="2" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" ></Image>
+                        <Label x:Name="WeatherLabel" Grid.Column="1" Grid.Row="0" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="WavesLabel" Grid.Column="1" Grid.Row="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="BoatLabel" Grid.Column="1" Grid.Row="2" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                    </Grid>
+                    
+                   
+
+                </Frame>
+                <Frame Grid.Column="0"  Grid.Row="5" HorizontalOptions="FillAndExpand" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="260"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+                        <Image x:Name="DepthIcon" Grid.Column="0" Grid.Row="0" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" ></Image>
+                        <Image x:Name="TimeIcon"  Grid.Column="0"  Grid.Row="1" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
+                        <Image x:Name="PressIcon" Grid.Column="0" Grid.Row="2" Source="" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" ></Image>
+                        <Label x:Name="DepthLabel" Grid.Column="1" Grid.Row="0" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="TimeLabel" Grid.Column="1" Grid.Row="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="PressLabel" Grid.Column="1" Grid.Row="2" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                    </Grid>
+
+
+
+                </Frame>
+
+
+
+</Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

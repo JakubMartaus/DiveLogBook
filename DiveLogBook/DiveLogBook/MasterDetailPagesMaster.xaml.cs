@@ -33,11 +33,9 @@ namespace DiveLogBook
             {
                 MenuItems = new ObservableCollection<MasterDetailPagesMenuItem>(new[]
                 {
-                    new MasterDetailPagesMenuItem { Id = 0, Title = "Ponory", TargetType = typeof(MasterDetailPagesDetail)},
-                    new MasterDetailPagesMenuItem { Id = 1, Title = "Přidat ponor", TargetType = typeof(AddItemPage)},
-                    new MasterDetailPagesMenuItem { Id = 2, Title = "Page 3" },
-                    new MasterDetailPagesMenuItem { Id = 3, Title = "Page 4" },
-                    new MasterDetailPagesMenuItem { Id = 4, Title = "Page 5" },
+                    new MasterDetailPagesMenuItem { Id = 0, Title = "Dives", TargetType = typeof(MasterDetailPagesDetail)},
+                    new MasterDetailPagesMenuItem { Id = 1, Title = "Add Dive", TargetType = typeof(AddItemPage)},
+               
                 });
             }
             

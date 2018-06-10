@@ -11,8 +11,8 @@
 namespace DiveLogBook {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\martaja15\\Source\\Repos\\DiveLogBook\\DiveLogBook\\DiveLogBook\\MasterDetailP" +
-        "ages.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Jakub Martaus\\Source\\Repos\\DiveLogBook5\\DiveLogBook\\DiveLogBook\\MasterDe" +
+        "tailPages.xaml")]
     public partial class MasterDetailPages : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

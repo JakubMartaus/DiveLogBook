@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Text;
 using SQLite;
 
@@ -17,13 +18,15 @@ namespace DiveLogBook
         public string Weather { get; set; }
         public string Waves { get; set; }
         public string Boat { get; set; }
+        public string Press { get; set; }
+        public string Depth { get; set; }
     public TodoItem()
         {
 
         }
         public override string ToString()
         {
-            return "ID" + ID + "Country" + Country + "Location" + Location + "Date" + Date + "Time" + Time + "Buddy" + Buddy + "Weather" + Weather + "Waves" + Waves + "Boat" + Boat;
+            return "ID" + ID + "Country" + Country + "Location" + Location + "Date" + Date + "Time" + Time + "Buddy" + Buddy + "Weather" + Weather + "Waves" + Waves + "Boat" + Boat + "Presss" + Press + "Depth" + Depth;
         }
     }
 }

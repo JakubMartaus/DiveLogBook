@@ -6,8 +6,8 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="DiveLogBook.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="DiveLogBook" android:theme="@style/MainTheme" android:name="md5226c1aef13800b46cf186f132ba5a6b9.MainActivity" />
-    <activity android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md5226c1aef13800b46cf186f132ba5a6b9.SplashActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="DiveLogBook" android:theme="@style/MainTheme" android:name="md5588ea888f2f75623bad271afa431497f.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md5588ea888f2f75623bad271afa431497f.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

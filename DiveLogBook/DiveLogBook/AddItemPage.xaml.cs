@@ -35,7 +35,8 @@ namespace DiveLogBook
             WeatherIcon.Source = ImageSource.FromFile("DarkCloud.png");
             SeaIcon.Source = ImageSource.FromFile("seaWaves.png");
 		    BoatIcon.Source = ImageSource.FromFile("boat.png");
-
+            GaugeIcon.Source = ImageSource.FromFile("gauge.png");
+            DepthIcon.Source = ImageSource.FromFile("Depth.png");
 
 
 		 
@@ -44,19 +45,32 @@ namespace DiveLogBook
 
 	    private void SaveButton_OnClicked(object sender, EventArgs e)
 	    {
-	        TodoItem item = new TodoItem();
-	        item.Country = CountryEntry.Text;
-	        item.Location = LocationEntry.Text;
-	        item.Date = DatePick.Date.ToString();
-	        item.Time = TimePick.Time.ToString();
-	        item.Buddy = BuddyEntry.Text;
-	        item.Weather = WeatherPick.SelectedItem.ToString();
-	        item.Waves = WavesPick.SelectedItem.ToString();
-	        item.Boat = BoatPick.SelectedItem.ToString();
+	        if (CountryEntry.Text == null || LocationEntry.Text == null || DatePick.Date == null || TimePick.Time == null || BuddyEntry.Text == null || WeatherPick.Items == null || WavesPick.Items == null || BoatPick.Items == null || NumberPicker.Text == null || DepthPicker.Text == null)
+	        {
+	            DisplayAlert("Alert", "You must fill all fields!", "OK");
+            }
+	        else
+	        {
+	          
+	
+	            TodoItem item = new TodoItem();
+	            item.Country = CountryEntry.Text;
+	            item.Location = LocationEntry.Text;
+	            item.Date = DatePick.Date.ToString();
+	            item.Time = TimePick.Time.ToString();
+	            item.Buddy = BuddyEntry.Text;
+	            item.Weather = WeatherPick.SelectedItem.ToString();
+	            item.Waves = WavesPick.SelectedItem.ToString();
+	            item.Boat = BoatPick.SelectedItem.ToString();
+	            item.Depth = DepthPicker.Text + "m".ToString();
+	            item.Press = NumberPicker.Text.ToString() + "bars";
 
-	        Database.SaveItemAsync(item);
+	            Database.SaveItemAsync(item);
 
-            MasterDetailPages.CustomNavigationTo ();
+	            MasterDetailPages.CustomNavigationTo();
+            }
+
+	      
         }
 	}
 }

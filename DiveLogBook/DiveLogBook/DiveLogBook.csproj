@@ -5,11 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Img\depth.png" />
+    <None Remove="Img\gauge.png" />
     <None Remove="Img\user.png" />
     <None Remove="Logo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Img\depth.png" />
+    <EmbeddedResource Include="Img\gauge.png" />
     <EmbeddedResource Include="Img\user.png" />
     <EmbeddedResource Include="Logo.png" />
   </ItemGroup>
